@@ -1,0 +1,132 @@
+.herosection {
+	display: flex;
+	justify-content: flex-end;
+	height: 600px;
+	background: linear-gradient(rgba(160, 160, 160, 0.5), rgba(160, 160, 160, 0.5)),
+		url("../../images/roachestownStore.jpg") no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.herosection_welcome {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	margin-right: 150px;
+}
+
+.welcome_container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.herosection_title {
+	font-size: 56px;
+	font-weight: 400;
+}
+
+.herosection_subtitle {
+	font-size: 26px;
+	font-weight: 200;
+}
+
+.btn {
+	cursor: pointer;
+	background-color: #3d2539;
+	border: none;
+	color: #fff;
+	width: 300px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: auto;
+	padding: 10px 0;
+	font-size: 18px;
+}
+
+.btn:hover {
+	transition: all .3s ease-out;
+	transform: scale(1.03) translateZ(0) perspective(1px) translateZ(0);
+	backface-visibility: hidden;
+}
+
+/* Mobile Screen */
+
+@media only screen and (max-width: 650px) {
+	.herosection {
+		display: flex;
+		justify-content: center;
+		height: 600px;
+		background-position: left center;
+	}
+
+	.herosection_welcome {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		color: #fff;
+		margin-right: 0px;
+	}
+
+	.welcome_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center !important;
+	}
+
+	.herosection_title {
+		font-size: 26px !important;
+		font-weight: 400;
+	}
+
+	.herosection_subtitle {
+		font-size: 18px !important;
+		font-weight: 200;
+	}
+
+	.btn {
+		background-color: #3d2539;
+		border: none;
+		color: #fff;
+		width: 200px;
+		margin: 20px auto 0 auto;
+		padding: 10px 0;
+		font-size: 18px;
+	}
+}
+
+/* Tablet Screen */
+
+@media only screen and (max-width: 960px) {
+	.herosection {
+		display: flex;
+		justify-content: center;
+		height: 600px;
+		background-position: left center;
+	}
+
+	.herosection_welcome {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		color: #fff;
+		margin-right: 0px;
+	}
+
+	.welcome_container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.herosection_title {
+		font-size: 32px;
+		font-weight: 400;
+	}
+
+	.herosection_subtitle {
+		font-size: 24px;
+		font-weight: 200;
+	}
+}
